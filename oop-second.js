@@ -1,4 +1,4 @@
-var johnsscore = 89+ 120 +103/3;
+var johnsscore = 80+ 120 +103/3;
 var mikescore = 116 + 94 + 123/3;
 console.log('  johnteam average '+johnsscore+ " ",'  miketeam average' +mikescore )
  if(johnsscore>mikescore){
