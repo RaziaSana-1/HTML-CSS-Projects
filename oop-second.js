@@ -1,7 +1,7 @@
-var johnsscore = 80+ 120 +103/3;
-var mikescore = 116 + 94 + 123/3;
+var johnsmarks = 80+ 120 +103/3;
+var mikemarks = 123 + 94 + 123/3;
 console.log('  johnteam average '+johnsscore+ " ",'  miketeam average' +mikescore )
- if(johnsscore>mikescore){
+ if(johnsmarks>mikemarks){
   console.log('john team is winnner with the average'+johnsscore);
  }
  else{
