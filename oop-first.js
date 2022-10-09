@@ -6,4 +6,4 @@ var alexBMI = alexMass/(alexhight*alexhight);
 var ahmadBMI = ahmadmass/(ahmadhight*ahmadhight);
 console.log( alexBMI, ahmadBMI)
 var higherBMI = alexBMI>ahmadBMI;
-console.log('is alexBMI higher than ahmadBMI' + higherBMI)
+console.log('is alexBMI higher than ahmadBMI' + higherBMI);
