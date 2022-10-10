@@ -1,0 +1,62 @@
+.h-div{
+    margin-left: 0;
+    width: 100%;
+   height: 60px;
+   grid-template-columns: 250px 1fr 250px;
+   display: grid;
+   background-color: #04326b;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+}
+.email-logo{
+    position:fixed;
+}
+.first-section{
+
+    display: inline;
+}
+.middle-section{
+   
+     display: inline; 
+}
+.last-section{
+  
+    display: inline;
+}
+.first-buttun{
+    background-color: white;
+    height: 35px;
+    width: 120px;
+    color: #0a3364;
+    font-size: 20px;
+    border:1px solid #0a3364;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left:20px ;
+}
+.sp{
+    background-color: #0a3364;
+    color: white;
+    width: 100px;
+    height: 40px;
+    letter-spacing: 5px ;
+    padding-right: 7px;   
+}
+ul{
+
+    list-style-type:none;
+    margin-top: 25px;
+    display: flex;
+  
+}
+ul li a{
+    margin:25px;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:8000;
+    color:white;
+}

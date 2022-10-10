@@ -1,0 +1,49 @@
+.body{
+    margin: 0;
+    font-family: Roboto, arial;
+
+}
+.main-continer{
+    margin-top: 90px;
+    margin-right: 30px;
+    float: right;
+    height: 500px;
+    width: 850px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+.car-image{
+    background-color: #04326b;
+    height: 355px;
+    width: 380px;
+    margin: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 4px gray;
+}
+.images{
+    width: 380px;
+    height: 200px;
+}
+.pictuer-h3{
+    margin-left: 35px;
+    margin-top: 5px;
+    color:white
+}
+.pictuer-p{
+    color: white;
+    margin-left: 35px;
+    font-weight:lighter;
+}
+.pictuer-button{
+    width: 120px;
+    height: 32px;
+    color: #04326b;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 800;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: none;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .h-div{
+            margin-left: 0;
+            width: 100%;
+           height: 55px;
+           grid-template-columns: 250px 1fr 250px;
+           display: grid;
+           background-color: #04326b;
+           overflow: hidden;
+           position: fixed;
+           top: 0;
+        }
+        .email-logo{
+            position:fixed;
+        }
+        .first-section{
+        
+            display: inline;
+        }
+        .middle-section{
+           
+             display: inline; 
+        }
+        .last-section{
+          
+            display: inline;
+        }
+        .first-buttun{
+            background-color: white;
+            height: 35px;
+            width: 120px;
+            color: #0a3364;
+            font-size: 20px;
+            border:1px solid #0a3364;
+            border-radius: 3px;
+            letter-spacing: 2px;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-bottom: 8px;
+            margin-left:20px ;
+        }
+        .sp{
+            background-color: #0a3364;
+            color: white;
+            width: 100px;
+            height: 40px;
+            letter-spacing: 5px ;
+            padding-right: 7px;   
+        }
+        ul{
+        
+            list-style-type:none;
+            margin-top: 25px;
+            display: flex;
+          
+        }
+        ul li a{
+            margin:25px;
+            text-decoration:none;
+            font-size:15px;
+            font-weight:1000;
+            color:white;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="h-div">
+        
+          <div class="first-section">
+             
+            <button class="first-buttun">Oper<span class="sp">bus</span></button>
+              
+          </div>
+          <div class="middle-section">
+            <nav class="nav">
+                <ul>
+                    <li ><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Recursos</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                </ul>
+                </nav>
+
+          </div>
+          <div class="last-section">
+               <img class="email-logo" src="images/1.png" alt="" style="height: 100px;" >
+          </div>  
+        </div>
+      </nav>
+
+</body>
+</html>
